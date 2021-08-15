@@ -1,3 +1,8 @@
+
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     margin: auto;
     display: block;
@@ -5,7 +10,7 @@ body {
     text-align: center;
     box-sizing: border-box;
     height: 100vh;
-    background-color: rgb(29, 35, 51);
+    background-color:  lightpink;
     color: white;
   }
 
@@ -16,10 +21,14 @@ body {
   
   #bday-input{
       margin: 6rem auto 3rem;
+      border-radius: 1rem;
+      padding: 0.5rem;
+      text-align: center;
   }
 
   main {
-    border: 1px solid white;
+    border: 2px solid black;
+    border-radius: 1rem;
     text-align: center;
     height: 100%;
   }
@@ -29,4 +38,30 @@ body {
     margin: auto;
     text-align: center;
     font-size: large;
+  }
+
+  #show-btn{
+    padding: 0.2rem;
+    display: block;
+    font-size: 1.3rem;
+    margin: 2rem auto;
+    width: 5rem;
+    background-color: black;
+    color: white;
+    border: 3px outset var(--sec-color);
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  #result{
+    padding: 0.5rem;
+    display: block;
+    font-size: 1rem;
+    width: 450px;
+    margin: 1rem auto;
+    background-color: black;
+    color: pink;
+    border: 1px outset black;
+    border-radius: 0.5rem;
+   
   }
