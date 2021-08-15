@@ -1,0 +1,32 @@
+body {
+    margin: auto;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(29, 35, 51);
+    color: white;
+  }
+
+
+  h1{
+      padding: 1rem 2rem 2rem;
+  }
+  
+  #bday-input{
+      margin: 6rem auto 3rem;
+  }
+
+  main {
+    border: 1px solid white;
+    text-align: center;
+    height: 100%;
+  }
+  
+  p {
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+  }
