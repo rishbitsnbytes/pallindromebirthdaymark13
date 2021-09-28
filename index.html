@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>pallindrome birthday</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pallindrome Birthday Check!</title>
 
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="/app.js" defer type="text/javascript"></script>
 
 </head>
 
 <body>
     <main>
-        <h1>palindrome birthday! 🎂</h1>
-        <h4>check if your birthday is pallindrome or not!!</h4>
-        <input type="date" id="bday-input" />
-        <button id="show-btn">check</button>
-        <p id="result"></p>
+        <h1>pallindrome birthday?🎂</h1>
+        <h3>check whether your birthday is pallindrome!🎉</h3>
+        <label for="inputDob"><input type="date" id="inputDob" required></label>
+        <button id="checkBtn">Check</button>
+        <div id="outputDiv"></div>
     </main>
-    <script src="script.js"></script>
+
 </body>
 
 </html>
