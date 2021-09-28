@@ -9,4 +9,4 @@ User will enter his/her birthday.
 
 After checking for all the date formats whether thier birthday is pallindrome will be diplayed.
 
-Also the nearest pallindrome date will be displayed either in past or in future, whichever is nearest.
+Also the nearest pallindrome dates will be displayed in the past and in the future  both.
